@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import Logo from '../components/Logo';
+import Layout from '../components/Layout';
 
 import SEO from '../components/seo';
 
@@ -9,7 +9,7 @@ const IndexPage = () => (
   <div>
     <SEO title="Home" />
     <h1>Home</h1>
-    <Logo />
+    <Layout />
     <Link to="/page-2/">Go to page 2</Link>
   </div>
 );
