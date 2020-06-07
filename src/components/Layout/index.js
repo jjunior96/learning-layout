@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../Header';
 import Title from '../Title';
+import Main from '../Main';
 import GlobalStyle from '../../styles/global';
 
 import * as S from './styled';
@@ -12,7 +13,7 @@ const Layout = () => (
     <Header />
     <S.LayoutWrapper>
       <Title />
-      <main>Main</main>
+      <Main />
       <footer>Footer</footer>
     </S.LayoutWrapper>
   </>
