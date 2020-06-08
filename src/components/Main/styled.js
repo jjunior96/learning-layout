@@ -7,4 +7,5 @@ export const MainWrapper = styled.main`
   background: #aaa;
   color: #fff;
   padding: 1rem 4rem;
+  border: 1px solid #eee;
 `;
