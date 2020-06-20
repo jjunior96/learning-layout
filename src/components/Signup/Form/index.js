@@ -13,7 +13,7 @@ import * as S from './styled';
 
 import Header from '../../Header';
 
-class Signup extends React.Component {
+class Form extends React.Component {
   // state = {
   //   nome: '',
   //   sobrenome: '',
@@ -92,4 +92,4 @@ class Signup extends React.Component {
   }
 }
 
-export default Signup;
+export default Form;
